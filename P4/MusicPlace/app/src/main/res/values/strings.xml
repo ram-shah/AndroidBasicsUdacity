@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Music Place</string>
+
+    <!-- Menu item name for my music [CHAR LIMIT=20] -->
+    <string name="menu_my_music">My Music</string>
+
+    <!-- Menu item name for buy music [CHAR LIMIT=20] -->
+    <string name="menu_buy_music">Buy Music</string>
+
+    <!-- Menu item name for now playing [CHAR LIMIT=20] -->
+    <string name="menu_now_playing">Now Playing</string>
+
+    <!-- My Music activity screen explanation -->
+    <string name="my_music_details">
+        This screen will have 3 clickable TextViews for Recent Playlists, All playlists and All Songs.\n\n
+        On clicking these activities, it will start corresponding activity and show a new screen. Recent Playlists activity will
+        show list of all playlists played in the last 1 week. All playlists activity will show list of all the user playlists.
+        All songs activity will show list of all songs.\n\n
+        This screen will also have a button to create a new playlist.On clicking this button, the user will be able to create
+        new playlist from the existing songs from songs library.
+    </string>
+
+    <!-- Buy Music activity screen explanation -->
+    <string name="buy_music_details">
+        This screen will have 1 clickable TextView for buying songs from Google Play Music store.\n\n
+        On clicking this TextView, it will open either Google Play Music app on the device or browse
+        to the music store on Google Play Store website. The user can then buy music from the play music store.\n\n
+        First the app will try to open the Google Play Music app if it is installed on the device using:\n\n
+        Intent intent = context.getPackageManager().getLaunchIntentForPackage("com.google.android.music");
+        startActivity(intent);\n\n
+        If the app is not installed, browse to the Google Play Music website to buy music using:\n\n
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/music")));
+    </string>
+
+    <!-- Now Playing activity screen explanation -->
+    <string name="now_paying_details">
+        This screen will have an image that shows the poster of the album or movie the song is from.\n\n
+        Below the image, it will show couple of words representing the song. Below that it will show the singer name.\n\n
+        Below that, it will have time bar that will show the progress as the song is played.\n\n
+        Below that it will have buttons to play or pause, forward to next song and go back to previous song.
+    </string>
+
+    <string name="home">Home</string>
+</resources>

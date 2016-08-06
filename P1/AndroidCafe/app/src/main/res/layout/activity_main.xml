@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.androidcafe.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/coffee"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:textColor="#FF00FF00"
+        android:textSize="20sp"
+        android:text="Come and enjoy the best Coffee in bay area @Android Cafe. Free wifi with atleast one purchase."/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/business_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:text="Android Cafe"/>
+
+        <TextView
+            android:id="@+id/address1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_below="@+id/business_name"
+            android:text="123 Android St"/>
+
+        <TextView
+            android:id="@+id/address2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address1"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:text="San Francisco, CA 94115"/>
+
+        <TextView
+            android:id="@+id/phone_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address2"
+            android:layout_marginLeft="4dp"
+            android:text="(415) 123 4567"/>
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone_no"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="4dp"
+            android:text="http://www.androidcafe.com"/>
+
+        <TextView
+            android:id="@+id/hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/website"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Hours:"/>
+
+        <TextView
+            android:id="@+id/hours_weekday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hours"
+            android:layout_marginLeft="4dp"
+            android:text="Mon-Fri   8am - 8pm"/>
+
+        <TextView
+            android:id="@+id/hours_sat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_below="@+id/hours_weekday"
+            android:text="Sat-Sun   7am - 6pm"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

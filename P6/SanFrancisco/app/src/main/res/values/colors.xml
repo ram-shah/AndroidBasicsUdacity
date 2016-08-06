@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#FF9800</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the attractions category -->
+    <color name="category_attractions">#CDDC39</color>
+
+    <!-- Background color for the restaurants category -->
+    <color name="category_restaurants">#607D8B</color>
+
+    <!-- Background color for the nighlife category -->
+    <color name="category_nightlife">#CE93D8</color>
+
+    <!-- Background color for the startups category -->
+    <color name="category_startups">#16AFCA</color>
+</resources>

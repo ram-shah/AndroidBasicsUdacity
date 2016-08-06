@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">San Francisco</string>
+    <string name="category_attractions">Attractions</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_nightlife">NightLife</string>
+    <string name="category_startups">StartUps</string>
+
+    <!-- Names of attractions-->
+    <string name="attraction1_name">Golden Gate Bridge</string>
+    <string name="attraction2_name">Union Square</string>
+    <string name="attraction3_name">Pier 39</string>
+    <string name="attraction4_name">Twin Peaks</string>
+    <string name="attraction5_name">Exploratorium</string>
+    <string name="attraction6_name">AT&amp;T Park</string>
+    <string name="attraction7_name">Aquarium of the Bay</string>
+    <string name="attraction8_name">Lombard Street</string>
+    <string name="attraction9_name">Coit Tower</string>
+    <string name="attraction10_name">Ghirardelli Square</string>
+
+    <!-- Addresses of attractions-->
+    <string name="attraction1_address">Golden Gate Bridge</string>
+    <string name="attraction2_address">333 Post St</string>
+    <string name="attraction3_address">Beach Street &amp; The Embarcadero</string>
+    <string name="attraction4_address">501 Twin Peaks Blvd</string>
+    <string name="attraction5_address">15 The Embarcadero #100</string>
+    <string name="attraction6_address">24 Willie Mays Plaza</string>
+    <string name="attraction7_address">PIER 39, 2 Beach St</string>
+    <string name="attraction8_address">Lombard St</string>
+    <string name="attraction9_address">1 Telegraph Hill Blvd</string>
+    <string name="attraction10_address">900 North Point St</string>
+
+    <!-- Names of restaurants-->
+    <string name="restaurant1_name">Gary Danko</string>
+    <string name="restaurant2_name">Kappa Japanese Restaurant</string>
+    <string name="restaurant3_name">Casa Flores</string>
+    <string name="restaurant4_name">jū-ni</string>
+    <string name="restaurant5_name">Californios</string>
+    <string name="restaurant6_name">An Japanese Restaurant</string>
+    <string name="restaurant7_name">The Progress</string>
+    <string name="restaurant8_name">MOSU</string>
+    <string name="restaurant9_name">Lazy Bear</string>
+    <string name="restaurant10_name">In Situ</string>
+
+    <!-- Addresses of restaurants-->
+    <string name="restaurant1_address">800 N Point St</string>
+    <string name="restaurant2_address">1700 Post St</string>
+    <string name="restaurant3_address">1808 California St</string>
+    <string name="restaurant4_address">1335 Fulton Street</string>
+    <string name="restaurant5_address">3115 22nd St</string>
+    <string name="restaurant6_address">22 Peace Plz</string>
+    <string name="restaurant7_address">1525 Fillmore St</string>
+    <string name="restaurant8_address">1552 Fillmore Street</string>
+    <string name="restaurant9_address">3416 19th St</string>
+    <string name="restaurant10_address">151 3rd St</string>
+
+    <!-- Phone numbers of restaurants-->
+    <string name="restaurant1_phone">(415) 749-2060</string>
+    <string name="restaurant2_phone">(415) 673-6004</string>
+    <string name="restaurant3_phone">(408) 475-6895</string>
+    <string name="restaurant4_phone">(415) 655-9924</string>
+    <string name="restaurant5_phone">(415) 757-0994</string>
+    <string name="restaurant6_phone">(415) 292-4886</string>
+    <string name="restaurant7_phone">(415) 673-1294</string>
+    <string name="restaurant8_phone">(415) 735-7303</string>
+    <string name="restaurant9_phone">(415) 874-9921</string>
+    <string name="restaurant10_phone">(415) 941-6050</string>
+
+    <!-- Hours of restaurants-->
+    <string name="restaurant1_hours">Weekdays 5:30 pm - 10:00 pm\nWeekend  5:30 pm - 10:00 pm</string>
+    <string name="restaurant2_hours">Weekdays 6:00 pm - 9:00 pm\nWeekend  6:00 pm - 9:00 pm</string>
+    <string name="restaurant3_hours">Weekdays 6:00 pm - 9:30 pm\nWeekend  6:00 pm - 9:30 pm</string>
+    <string name="restaurant4_hours">Weekdays 5:30 pm - 10:30 pm\nWeekend  5:30 pm - 11:30 pm</string>
+    <string name="restaurant5_hours">Weekdays 5:30 pm - 10:00 pm\nWeekend  5:30 pm - 10:00 pm</string>
+    <string name="restaurant6_hours">Weekdays 5:30 pm - 10:00 pm\nWeekend  5:30 pm - 10:00 pm</string>
+    <string name="restaurant7_hours">Weekdays 5:00 pm - 10:00 pm\nWeekend  5:00 pm - 11:00 pm</string>
+    <string name="restaurant8_hours">Weekdays 5:30 pm - 9:00 pm\nWeekend  5:30 pm - 9:00 pm</string>
+    <string name="restaurant9_hours">Weekdays 6:00 pm - 11:00 pm\nWeekend  6:00 pm - 11:00 pm</string>
+    <string name="restaurant10_hours">Weekdays 11:00 am - 4:00 pm\nWeekend  5:00 pm - 9:00 pm</string>
+
+    <!-- Names of nightlife-->
+    <string name="nightlife1_name">Beluga</string>
+    <string name="nightlife2_name">Club Mari-S</string>
+    <string name="nightlife3_name">Infusion Lounge</string>
+    <string name="nightlife4_name">The Hancock Room</string>
+    <string name="nightlife5_name">Kanpai</string>
+    <string name="nightlife6_name">Bourbon &amp; Branch</string>
+    <string name="nightlife7_name">Tropigala Executive Night Club</string>
+    <string name="nightlife8_name">F8 Nightclub and Bar</string>
+    <string name="nightlife9_name">Monarch</string>
+    <string name="nightlife10_name">Mr Smith’s</string>
+
+    <!-- Addresses of nightlife-->
+    <string name="nightlife1_address">5323 Geary Blvd</string>
+    <string name="nightlife2_address">1581 Webster St</string>
+    <string name="nightlife3_address">124 Ellis St</string>
+    <string name="nightlife4_address">1350 Powell St</string>
+    <string name="nightlife5_address">222 Mason St</string>
+    <string name="nightlife6_address">501 Jones St</string>
+    <string name="nightlife7_address">358 Ocean Ave</string>
+    <string name="nightlife8_address">1192 Folsom</string>
+    <string name="nightlife9_address">101 6th St</string>
+    <string name="nightlife10_address">34 7th St</string>
+
+    <!-- Phone numbers of nightlife-->
+    <string name="nightlife1_phone">(415) 379-3903</string>
+    <string name="nightlife2_phone">(415) 673-5636</string>
+    <string name="nightlife3_phone">(415) 421-8700</string>
+    <string name="nightlife4_phone">(415) 699-6545</string>
+    <string name="nightlife5_phone">(415) 394-1111</string>
+    <string name="nightlife6_phone">(415) 346-1735</string>
+    <string name="nightlife7_phone">(628) 400-6025</string>
+    <string name="nightlife8_phone">(415) 857-1192</string>
+    <string name="nightlife9_phone">(415) 284-9774</string>
+    <string name="nightlife10_phone">(415) 355-9991</string>
+
+    <!-- Hours of nightlife-->
+    <string name="nightlife1_hours">Weekdays 7:00 pm - 12:00 am\nWeekend  7:00 pm - 12:00 am</string>
+    <string name="nightlife2_hours">Weekdays 8:00 pm - 2:00 am\nWeekend  8:00 pm - 2:00 am</string>
+    <string name="nightlife3_hours">Weekdays 8:00 pm - 2:00 am\nWeekend  6:00 pm - 2:00 am</string>
+    <string name="nightlife4_hours">Weekdays Closed\nWeekend  9:00 pm - 1:30 am</string>
+    <string name="nightlife5_hours">Weekdays 5:00 pm - 12:00 am\nWeekend  5:00 pm - 12:00 am</string>
+    <string name="nightlife6_hours">Weekdays 6:00 pm - 12:00 am\nWeekend  6:00 pm - 12:00 am</string>
+    <string name="nightlife7_hours">Weekdays Closed\nWeekend  9:00 pm - 2:00 am</string>
+    <string name="nightlife8_hours">Weekdays 5:00 pm - 2:00 am\nWeekend  10:00 pm - 3:00 am</string>
+    <string name="nightlife9_hours">Weekdays 5:30 pm - 2:00 am\nWeekend 9:00 pm - 4:00 am</string>
+    <string name="nightlife10_hours">Weekdays 4:30 pm - 11:00 pm\nWeekend  9:00 pm - 2:00 am</string>
+
+    <!-- Names of startups-->
+    <string name="startups1_name">Dropbox</string>
+    <string name="startups2_name">Shyp</string>
+    <string name="startups3_name">Uber</string>
+    <string name="startups4_name">Slack</string>
+    <string name="startups5_name">Pinterest</string>
+    <string name="startups6_name">Udemy</string>
+    <string name="startups7_name">Asana</string>
+    <string name="startups8_name">Stripe</string>
+    <string name="startups9_name">Postmates</string>
+    <string name="startups10_name">Airbnb</string>
+
+    <!-- Addresses of startups-->
+    <string name="startups1_address">333 Brannan St</string>
+    <string name="startups2_address">585 Howard St</string>
+    <string name="startups3_address">1455 Market St #400</string>
+    <string name="startups4_address">155 5th St</string>
+    <string name="startups5_address">580 7th St</string>
+    <string name="startups6_address">600 Harrison St</string>
+    <string name="startups7_address">1550 Bryant St #800</string>
+    <string name="startups8_address">3180 18th St</string>
+    <string name="startups9_address">425 Market St #8</string>
+    <string name="startups10_address">888 Brannan St</string>
+</resources>

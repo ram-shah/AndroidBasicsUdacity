@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.androidquiz.MainActivity">
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/question1" />
+
+        <RadioGroup
+            android:id="@+id/q1_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q1_option1"
+                style="@style/OptionsStyle"
+                android:checked="true"
+                android:text="@string/text_2002" />
+
+            <RadioButton
+                android:id="@+id/q1_option2"
+                style="@style/OptionsStyle"
+                android:text="@string/text_2003" />
+
+            <RadioButton
+                android:id="@+id/q1_option3"
+                style="@style/OptionsStyle"
+                android:text="@string/text_2004" />
+
+            <RadioButton
+                android:id="@+id/q1_option4"
+                style="@style/OptionsStyle"
+                android:text="@string/text_2005" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/question2" />
+
+        <RadioGroup
+            android:id="@+id/q2_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q2_option1"
+                style="@style/OptionsStyle"
+                android:checked="true"
+                android:text="@string/text_2005" />
+
+            <RadioButton
+                android:id="@+id/q2_option2"
+                style="@style/OptionsStyle"
+                android:text="@string/text_2006" />
+
+            <RadioButton
+                android:id="@+id/q2_option3"
+                style="@style/OptionsStyle"
+                android:text="@string/text_2007" />
+
+            <RadioButton
+                android:id="@+id/q2_option4"
+                style="@style/OptionsStyle"
+                android:text="@string/text_2008" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/question3" />
+
+        <RadioGroup
+            android:id="@+id/q3_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q3_option1"
+                style="@style/OptionsStyle"
+                android:checked="true"
+                android:text="@string/t_mobile_g1" />
+
+            <RadioButton
+                android:id="@+id/q3_option2"
+                style="@style/OptionsStyle"
+                android:text="@string/motorola_droid" />
+
+            <RadioButton
+                android:id="@+id/q3_option3"
+                style="@style/OptionsStyle"
+                android:text="@string/samsung_nexus_s" />
+
+            <RadioButton
+                android:id="@+id/q3_option4"
+                style="@style/OptionsStyle"
+                android:text="@string/htc_thunderbolt" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/question4" />
+
+        <RadioGroup
+            android:id="@+id/q4_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q4_option1"
+                style="@style/OptionsStyle"
+                android:checked="true"
+                android:text="@string/text_q4_option1" />
+
+            <RadioButton
+                android:id="@+id/q4_option2"
+                style="@style/OptionsStyle"
+                android:text="@string/text_q4_option2" />
+
+            <RadioButton
+                android:id="@+id/q4_option3"
+                style="@style/OptionsStyle"
+                android:text="@string/text_q4_option3" />
+
+            <RadioButton
+                android:id="@+id/q4_option4"
+                style="@style/OptionsStyle"
+                android:text="@string/text_q4_option4" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/question5" />
+
+        <CheckBox
+            android:id="@+id/q5_option1_check_box"
+            style="@style/OptionsStyle"
+            android:text="@string/rich_miner" />
+
+        <CheckBox
+            android:id="@+id/q5_option2_check_box"
+            style="@style/OptionsStyle"
+            android:text="@string/chris_white" />
+
+        <CheckBox
+            android:id="@+id/q5_option3_check_box"
+            style="@style/OptionsStyle"
+            android:text="@string/nick_sears" />
+
+        <CheckBox
+            android:id="@+id/q5_option4_check_box"
+            style="@style/OptionsStyle"
+            android:text="@string/andy_rubin" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/question6" />
+
+        <CheckBox
+            android:id="@+id/q6_option1_check_box"
+            style="@style/OptionsStyle"
+            android:text="@string/donut" />
+
+        <CheckBox
+            android:id="@+id/q6_option2_check_box"
+            style="@style/OptionsStyle"
+            android:text="@string/cupcake" />
+
+        <CheckBox
+            android:id="@+id/q6_option3_check_box"
+            style="@style/OptionsStyle"
+            android:text="@string/biscuit" />
+
+        <CheckBox
+            android:id="@+id/q6_option4_check_box"
+            style="@style/OptionsStyle"
+            android:text="@string/bagel" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/question7" />
+
+        <EditText
+            android:id="@+id/q7_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/year"
+            android:inputType="number"
+            android:maxLength="4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:onClick="submitAnswers"
+            android:text="@string/submit" />
+    </LinearLayout>
+</ScrollView>

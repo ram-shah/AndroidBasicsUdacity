@@ -1,0 +1,38 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Android Quiz</string>
+    <string name="question1">Android, Inc. was founded in</string>
+    <string name="text_2002">2002</string>
+    <string name="text_2003">2003</string>
+    <string name="text_2004">2004</string>
+    <string name="text_2005">2005</string>
+    <string name="submit">Submit</string>
+    <string name="result_msg1">You got <xliff:g id="correctAnswerCount">%d</xliff:g>/7 answers correct. Better luck next time.</string>
+    <string name="result_msg2">You got <xliff:g id="correctAnswerCount">%d</xliff:g>/7 answers correct. Good job!!!</string>
+    <string name="result_msg3">You got <xliff:g id="correctAnswerCount">%d</xliff:g>/7 answers correct. Awesome!!! You are an Android expert.</string>
+    <string name="question2">Google officially launched Android OS in</string>
+    <string name="text_2006">2006</string>
+    <string name="text_2007">2007</string>
+    <string name="text_2008">2008</string>
+    <string name="question3">The first consumer Android phone launched was</string>
+    <string name="t_mobile_g1">T-Mobile G1</string>
+    <string name="motorola_droid">Motorola Droid</string>
+    <string name="samsung_nexus_s">Samsung Nexus S</string>
+    <string name="htc_thunderbolt">HTC ThunderBolt</string>
+    <string name="question4">Current Android market share percentage is</string>
+    <string name="text_q4_option1">0-15</string>
+    <string name="text_q4_option2">16-30</string>
+    <string name="text_q4_option3">31-50</string>
+    <string name="text_q4_option4">51-100</string>
+    <string name="question5">The founders of Android are</string>
+    <string name="rich_miner">Rich Miner</string>
+    <string name="chris_white">Chris White</string>
+    <string name="nick_sears">Nick Sears</string>
+    <string name="andy_rubin">Andy Rubin</string>
+    <string name="question6">Android version names are</string>
+    <string name="donut">Donut</string>
+    <string name="cupcake">CupCake</string>
+    <string name="biscuit">Biscuit</string>
+    <string name="bagel">Bagel</string>
+    <string name="question7">Google acquired Android, Inc. in</string>
+    <string name="year">YEAR (eg. 2016)</string>
+</resources>

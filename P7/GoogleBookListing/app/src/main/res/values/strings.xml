@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Google Book Listing</string>
+    <string name="search">Search</string>
+    <string name="default_message">Enter a keyword and click on Search button to search for books
+                related to the keyword</string>
+    <string name="no_data">No books where found that matched the entered keyword</string>
+</resources>
